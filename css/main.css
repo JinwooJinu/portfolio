@@ -36,7 +36,7 @@ header div h1 a {
 .main_visual {
     width: 100%;
     height: 800px;
-    background: url('../images/visual1-3.jpg') center center / cover no-repeat;
+    background: url('../images/big_image2.jpg') center center / cover no-repeat;
     /* ../ <-- 폴더 위로가기 */
     background-attachment: fixed; /* 이미지 고정 */
     color: #fff;
