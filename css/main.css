@@ -350,7 +350,8 @@ h3 {
 
 /* footer */
 footer {
-    background-color: #333;
+    background: rgb(254,126,196);
+    background: linear-gradient(90deg, rgba(254,126,196,1) 0%, rgba(41,197,245,1) 100%);
     color: #fff;
     padding: 100px 0;
     text-align: center;
