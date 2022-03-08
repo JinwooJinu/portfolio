@@ -137,18 +137,31 @@ header div p a {
     margin-right: 10px;
     border-radius: 5px;
 }
-.best .best_box .info ul:nth-of-type(1) li:nth-of-type(1):hover {
+.best .best_box .info ul li:nth-of-type(1):hover {
     background-color: rgb(233, 151, 0);
 }
 .best .best_box .info ul li:nth-of-type(1):hover a {
     color: #333;
 }
 .best .best_box .info ul li:nth-of-type(2):hover {
-    background-color: #333;
+    background-color: rgb(233, 151, 0);
 }
 .best .best_box .info ul li:nth-of-type(2):hover a {
+    color: #333;
+}
+.best .best_box .info2 ul li:nth-of-type(1):hover {
+    background-color: #9577ff;
+}
+.best .best_box .info2 ul li:nth-of-type(1):hover a {
     color: #fff;
 }
+.best .best_box .info2 ul li:nth-of-type(2):hover {
+    background-color: #9577ff;
+}
+.best .best_box .info2 ul li:nth-of-type(2):hover a {
+    color: #fff;
+}
+
 .best .best_box .info ul li a {
     padding: 0 25px;
 }
@@ -194,9 +207,15 @@ header div p a {
 .youtube_wrap .youtube_menu li {
     height: 45px;
     line-height: 45px;
-    border: 1px solid #ccc;
+    border-color: rgb(255,255,255);
+    background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(41,197,245,1) 100%);
     box-sizing: border-box;
     margin: 0 5px;
+}
+.youtube_wrap .youtube_menu li a:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 2px 3px 20px rgba(3, 79, 243, 0.658);
 }
 .youtube_wrap .youtube_menu li a {
     padding: 0 30px;
@@ -207,6 +226,7 @@ header div p a {
 }
 .youtube_wrap .youtube_menu li.on a {
     color: #fff;
+    background-color: #333;
 }
 .youtube_wrap .youtube_cont .menu_cont {
     width: 1280px;
