@@ -37,9 +37,15 @@ header div ul li a {
     font-weight: bold;
     font-size: 20px;
 }
+header div ul li a:hover {
+    color: #fff;
+}
 header div p a {
     font-weight: bold;
     font-size: 20px;
+}
+header div p a:hover {
+    color: #fff;
 }
 
 
@@ -277,8 +283,10 @@ header div p a {
     margin-bottom: 10px;
 }
 .info dl dt {
+    padding-left: 30px;
     width: 20%;
     font-weight: bold;
+    box-sizing: border-box;
 }
 .info dl dd a {
     font-weight: bold;
