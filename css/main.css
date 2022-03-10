@@ -93,7 +93,7 @@ header div p a:hover {
     margin-bottom: 40px;
 }
 .best .bg {
-    background-color: rgb(233, 151, 0);
+    background-color: rgb(216, 140, 0);
     padding: 100px 0;
 }
 .best .bg .best_box {
@@ -303,11 +303,10 @@ h3 {
 
 /* 2D 디자인 */
 .g_design {
-    background-color: rgb(2, 113, 204);
     padding: 150px 0;
 }
 .g_design h3 {
-    color: #fff;
+    color: #333;
 }
 .g_design em {
     width: 1280px;
@@ -395,11 +394,17 @@ h3 {
 
 /* footer */
 footer {
-    background: rgb(254,126,196);
-    background: linear-gradient(90deg, rgba(254,126,196,1) 0%, rgba(41,197,245,1) 100%);
+    background-color: rgb(2, 113, 204);
     color: #fff;
     padding: 100px 0;
     text-align: center;
+}
+footer h3 {
+    display: inline-block;
+}
+footer h3:hover {
+    box-shadow: 0 0 20px rgb(254,126,196);
+    background: linear-gradient(90deg, rgba(254,126,196,1) 0%, rgba(41,197,245,1) 100%);;
 }
 footer a {
     color: #fff;
@@ -437,7 +442,7 @@ footer ul li:nth-of-type(3):hover {
 }
 footer p {
     font-size: 14px;
-    color: #333;
+    color: rgba(255, 255, 255, 0.7);
     margin-top: 20px;
 }
 
@@ -471,7 +476,13 @@ footer p {
 }
 .web_wrap .web_box .info {  
     padding-top: 20px;
-} 
+}
+.web_wrap .web_box .info .produce {
+    font-style: italic;
+}
+.web_wrap .web_box .web .info p:nth-of-type(1) {
+    font-weight: bold;
+}
 
 /* .info 공통스타일 */
 .info .text {
