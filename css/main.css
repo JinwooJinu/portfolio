@@ -33,6 +33,9 @@ header div h1 a {
     top: 50%;
     transform: translateY(-50%);
 }
+header div h1:hover a {
+    color: #fff;
+}
 header div ul li a {
     font-weight: bold;
     font-size: 20px;
