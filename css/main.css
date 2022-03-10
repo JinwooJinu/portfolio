@@ -131,6 +131,11 @@ header div p a:hover {
 .best .best_box .info dl dt {
     width: 28%;
     font-weight: bold;
+    padding-left: 45px;
+}
+.best .best_box .info2 dl dt {
+    width: 28%;
+    padding-left: 50px;
 }
 .best .best_box .info ul {
     display: flex;
@@ -477,13 +482,30 @@ footer p {
 .web_wrap .web_box .info {  
     padding-top: 20px;
 }
+.web_wrap .web_box .info dd {
+    padding-left: 30px;
+}
 .web_wrap .web_box .info .produce {
     font-style: italic;
 }
 .web_wrap .web_box .web .info p:nth-of-type(1) {
     font-weight: bold;
 }
-
+.web_wrap .web_box .web .info .btn li:nth-of-type(1):hover {
+    background: rgb(254,126,196);
+    background: linear-gradient(145deg, rgba(254,126,196,1) 0%, rgba(255,255,255,1) 44%, rgba(41,197,245,1) 100%);
+    box-shadow: 2px 3px 20px rgba(3, 79, 243, 0.658);
+}
+.web_wrap .web_box .web .info .btn li:nth-of-type(1):hover a {
+    font-weight: bold;
+    color: #333;
+}
+.web_wrap .web_box .web .info .btn li:nth-of-type(2):hover {
+    background: rgb(254,126,196);
+    background: linear-gradient(145deg, rgba(254,126,196,1) 0%, rgba(255,255,255,1) 44%, rgba(41,197,245,1) 100%);
+    box-shadow: 2px 3px 20px rgba(3, 79, 243, 0.658);
+    font-weight: bold;
+    }
 /* .info 공통스타일 */
 .info .text {
     margin-top: 20px;
@@ -507,6 +529,9 @@ footer p {
 }
 .info ul li a {
     padding: 0 20px;
+}
+.info ul li:first-of-type {
+    background-color: #333;
 }
 .info ul li:first-of-type a {
     color: #fff;
