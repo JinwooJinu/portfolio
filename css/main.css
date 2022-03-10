@@ -225,6 +225,7 @@ header div p a:hover {
     background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(41,197,245,1) 100%);
     box-sizing: border-box;
     margin: 0 5px;
+    font-weight: bold;
 }
 .youtube_wrap .youtube_menu li a:hover {
     background-color: #333;
