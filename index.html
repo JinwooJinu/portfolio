@@ -40,8 +40,15 @@
 <body>
     <header><!-- 홈피의 얼굴 역할 -->
         <div>
-            <ul>
-                <li><a href="#">Menu</a></li>
+            <ul class="menu">
+                <li>
+                    <a href="#">Menu</a>
+                    <ul class="depth02">
+                        <li><a href="#cont01">MOTION GRAPHIC</a></li>
+                        <li><a href="#cont02">WEB & APP DESIGN</a></li>
+                        <li><a href="#cont03">2D DESIGN</a></li>
+                    </ul>
+                </li>
             </ul>
             <h1 id="top">
                 <a href="#Profile">ParkJinWoo</a>
@@ -141,7 +148,7 @@
     </section><!-- .best end -->
     
     <!-- 카테고리별 유튜브 적용 -->
-    <section class="youtube_wrap">
+    <section class="youtube_wrap" id="cont01">
         <h3>MOTION GRAPHIC</h3>
         <ul class="youtube_menu">
             <li class="on"><a href="#">GAME</a></li>
@@ -706,7 +713,7 @@
     </section><!-- .youtube_wrap end -->
     
     <!-- 웹&앱디자인 -->
-    <section class="web_wrap">
+    <section class="web_wrap" id="cont02">
         <h3>WEB & APP DESIGN</h3> 
         <div class="web_box">
             <div class="web">
@@ -852,7 +859,7 @@
        
     </section><!-- .web_wrap end -->
     
-    <section class="g_design">
+    <section class="g_design" id="cont03">
         <h3>2D DESIGN</h3>
         <em>클릭하시면 큰 이미지를 볼 수 있습니다.</em>
         <div class="img_list">
