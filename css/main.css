@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'MaplestoryOTFLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {margin: 0; padding: 0;}
 li {list-style: none;}
@@ -8,6 +14,7 @@ a {
     color: #333;
 }
 html, body {
+    font-family: 'MaplestoryOTFLight';
     color: #333;
     min-width: 1280px;
     background: rgb(254,126,196);
